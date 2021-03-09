@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $headingsTextColor;
+    margin-top: 10px;
+
+    .nav__links {
+        display: flex;
+        align-items: center;
+        .nav__item {
+            margin-right: 20px;
+
+            a {
+                color: $headingsTextColor;
+
+                &:hover {
+                    color: $subHeadingsTextColor;
+                }
+            }
+        }
+        
+    }
+}

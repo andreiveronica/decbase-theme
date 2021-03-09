@@ -2,5 +2,51 @@
 @import "./abstract/variables";
 @import "./base/typography";
 @import "./abstract/functions";
+@import "./layout/navigation";
+@import "./components/buttons";
 
 
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: $baseFont;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondFont;
+    font-weight: $mediumFont;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: $semiBoldFont;
+    line-height: 78px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 78px;
+}
+
+h6 {
+    font-weight: $semiBoldFont;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+}
