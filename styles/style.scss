@@ -3,13 +3,14 @@
 @import "./base/typography";
 @import "./abstract/functions";
 @import "./layout/navigation";
+@import "./layout/hero";
 @import "./components/buttons";
-
+@import "./components/images";
 
 
 
 .container {
-    max-width: 1140px;
+    max-width: 1410px;
     margin: 0 auto;
 }
 
@@ -39,12 +40,6 @@ h2 {
 h3 {
     font-size: 48px;
     line-height: 78px;
-}
-
-h6 {
-    font-weight: $semiBoldFont;
-    font-size: 20px;
-    line-height: 28px;
 }
 
 a {

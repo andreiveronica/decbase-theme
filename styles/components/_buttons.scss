@@ -1,7 +1,16 @@
+.btn {
+    color: $whiteText;
+}
+
 .btn--light {
     background-color: $eunryColor;
-    color: $whiteText;
     text-transform: none;
     padding: 5px 20px;
     border-radius: 15px 0px;
+}
+
+.btn--green {
+    border-radius: 20px 0px;
+    padding: 8px 23px;
+    background-color: $viridianColor;
 }

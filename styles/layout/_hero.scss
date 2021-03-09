@@ -1,0 +1,24 @@
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-family: $baseFont;
+    font-weight: $semiBoldFont;
+    font-size: 20px;
+    color: $subHeadingsTextColor;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.content {
+
+    p {
+        line-height: 30px;
+        color: $subHeadingsTextColor;
+        font-weight: $regularFont;
+    }
+
+
+}
