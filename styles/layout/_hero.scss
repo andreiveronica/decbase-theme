@@ -18,7 +18,11 @@ span {
         line-height: 30px;
         color: $subHeadingsTextColor;
         font-weight: $regularFont;
+        margin-bottom: 36px;
+        margin-right: 44px;
     }
 
-
+    h1 {
+        margin-bottom: 23px;
+    }
 }

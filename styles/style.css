@@ -100,6 +100,12 @@ span {
   line-height: 30px;
   color: #646464;
   font-weight: 400;
+  margin-bottom: 36px;
+  margin-right: 44px;
+}
+
+.content h1 {
+  margin-bottom: 23px;
 }
 
 .btn {
